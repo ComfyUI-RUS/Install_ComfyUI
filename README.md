@@ -161,7 +161,9 @@
   <img src="img/013.jpg">
 </p>
 
-... и введите там команду "python -m pip install -r "
+... и введите там команду
+
+    python -m pip install -r d:\SD\requirements.txt
 
 
 ---
