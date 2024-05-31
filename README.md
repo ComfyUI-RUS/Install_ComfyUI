@@ -154,6 +154,14 @@
   <img src="img/017.jpg">
 </p>
 
+Зайдем в эту папку:
+
+<p align="center">
+  <img src="img/018.jpg">
+</p>
+
+
+
 ---
 
 ## Установка пакетов питона "ComfyUI"
