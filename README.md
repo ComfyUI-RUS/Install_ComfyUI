@@ -329,7 +329,7 @@
 1. Удаляет CPU-версии TORCH, ONNXRUNTIME, INSIGHTFACE, если что-то не установлено, так и напишет "Пропущено" (Scipping).
 2. Устанавливает последние GPU-версии TORCH, TORCHVISION
 3. Устанавливает GPU-версию ONNXRUNTIME-GPU
-4. Иправляет неудачную установку Insightface (используется в ReActor, софте определения лиц и т.п.)
+4. Иcправляет неудачную установку Insightface (используется в ReActor, софте определения лиц и т.п.)
 <p align="center">
   <img src="img/022.jpg">
 </p>
