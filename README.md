@@ -290,9 +290,28 @@
 
 Кое-кто заметил, что я ставлю пакеты питона прямо в "системный" питон, не создаю "виртуального окружения" (VENV) и т.п. Это не ошибка, это намеренное действие, поскольку "виртуальное окружение" питона я буду создавать начиная только со второго экземпляра web-интерфейса, причем я пойду против значения "по умолчанию" питона при создании VENV, и включу парамметр "наследования пакетов родителя" дочерним VENV питона *(кто понял - молодец, для остальных позже расскажу)*. 
 
-
-
-
-
 ---
+
+## ПАТЧ пакетов питона для "ComfyUI"
+
+Для того, чтобы сразу, в самом начале инсталляции пакетов питона исправить возможные ошибки, я вручную составлю команды для установки именно тех версий пакетов питона, которые будут без проблем работать с "**ComfнUI**" на картах "**NVIDIA**".
+
+Копируйте построчно команды и выполняйте по одной в терминале (Ctrl+V):
+
+    c:\p311\python -m pip uninstall torch torchvision torchaudio onnxruntime insightface -y
+    c:\p311\python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+    c:\p311\python -m pip install onnxruntime-gpu
+    c:\p311\python -m pip install https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl
+    
+>Примечание: последняя команда меняется в зависимости от версии питона 
+>     
+>для питона 3.9  = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp39-cp39-win_amd64.whl
+> 
+>для питона 3.10 = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp310-cp310-win_amd64.whl
+> 
+>для питона 3.11 = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl
+> 
+>для питона 3.12 = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp312-cp312-win_amd64.whl
+    
+    
 
