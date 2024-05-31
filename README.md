@@ -345,15 +345,15 @@
 
     c:\p311\python
 
-Адрес "ComfyUI":
+Адрес "**ComfyUI**":
     
     d:\sd\comfyui\main.py
     
-Ключ для автозапусска браузера:    
+Ключ для авто-запуска браузера:    
     
     --auto-launch
 
-Соединяем все вместе:
+Соединяем все вместе *(можете в BAT-файл сохранить)*:
 
     c:\p311\python d:\sd\comfyui\main.py --auto-launch
     
