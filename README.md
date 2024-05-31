@@ -1,6 +1,6 @@
-# Правильная установка интерфейса "ComfyUI"
+# Правильная установка интерфейса "ComfyUI" (НЕ ЗАКОНЧЕНО!!!)
 ---
-## Установка Python 3.11 (НЕ ЗАКОНЧЕНО!!!)
+## Установка Python 3.11
 
 Со страницы  <a href="https://www.python.org/downloads/windows">https://www.python.org/downloads/windows</a> скачиваем дистрибутив питона версии 3.11
 <p align="center">
