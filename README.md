@@ -334,3 +334,35 @@
 <p align="center">
   <img src="img/023.jpg">
 </p>
+
+Это основные "из опыта работы" патчи "**ComfyUI**", выявленные за последнее время в его пакетах.
+
+---
+
+## Запуск "ComfyUI" в этой "комплектации"
+
+Адрес питона:
+
+    c:\p311\python
+
+Адрес "ComfyUI":
+    
+    d:\sd\comfyui\main.py
+    
+Ключ для автозапусска браузера:    
+    
+    --auto-launch
+
+Соединяем все вместе:
+
+    c:\p311\python d:\sd\comfyui\main.py --auto-launch
+    
+<p align="center">
+  <img src="img/024.jpg">
+</p>
+
+Глянь-ка! Работает! )))
+
+<p align="center">
+  <img src="img/025.jpg">
+</p>
