@@ -296,12 +296,13 @@
 
 Для того, чтобы сразу, в самом начале инсталляции пакетов питона исправить возможные ошибки, я вручную составлю команды для установки именно тех версий пакетов питона, которые будут без проблем работать с "**ComfнUI**" на картах "**NVIDIA**".
 
-Копируйте построчно команды и выполняйте по одной в терминале (Ctrl+V):
+Копируйте команды, можете построчно, можете все сразу скопировать,а потом всставить в терминал (Ctrl+V):
 
     c:\p311\python -m pip uninstall torch torchvision torchaudio onnxruntime insightface -y
     c:\p311\python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
     c:\p311\python -m pip install onnxruntime-gpu
     c:\p311\python -m pip install https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl
+    pause
     
 >Примечание: последняя команда меняется в зависимости от версии питона 
 >     
