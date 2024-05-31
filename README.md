@@ -304,15 +304,23 @@
     c:\p311\python -m pip install https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl
     pause
     
->Примечание: последняя команда меняется в зависимости от версии питона 
+>Примечание: адрес в последней команде меняется в зависимости от версии питона 
 >     
->для питона 3.9  = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp39-cp39-win_amd64.whl
+>для питона 3.9
 > 
->для питона 3.10 = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp310-cp310-win_amd64.whl
+> https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp39-cp39-win_amd64.whl
 > 
->для питона 3.11 = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl
+>для питона 3.10
 > 
->для питона 3.12 = https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp312-cp312-win_amd64.whl
+> https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp310-cp310-win_amd64.whl
+> 
+>для питона 3.11
+> 
+> https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl
+> 
+>для питона 3.12
+> 
+> https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp312-cp312-win_amd64.whl
     
     
 
