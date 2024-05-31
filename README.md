@@ -1,2 +1,1 @@
-# Install_ComfyUI
-Правильная установка COmfyUI
+# Правильная установка COmfyUI
